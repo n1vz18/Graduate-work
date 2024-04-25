@@ -1,0 +1,57 @@
+
+.header{
+    padding: 25px 0 15px;
+    box-shadow: 0 4px 3px rgba(0, 0, 0, 0.1);
+}
+
+.header__row{
+    display: flex;
+    column-gap: 30px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header_logo{
+    display: flex;
+    align-items: center;
+    column-gap: 15px;
+}
+
+.header_logo_span{
+    font-weight: 350;
+    font-size: 22px;
+    line-height: 1.5;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+
+.Hello_English{
+    color: red;
+    border-left: 2px solid gray;
+    padding-left: 15px;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 1.5;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.social_warp li{
+    display: flex;
+    align-items: center;
+    column-gap: 6px;
+    
+}
+.social_warp span{
+    display: flex;
+    align-items: center;
+}
+.social_warp a{
+   color: gray;
+}
+
+img{
+    height: 40px;
+    width: 40px;
+}
