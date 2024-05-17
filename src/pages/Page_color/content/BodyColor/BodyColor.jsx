@@ -43,6 +43,7 @@ const QuizBlock = [
 export default function BodyColor(){
     return (
       <motion.div initial="hidden" whileInView="visible">
+        <h1>123</h1>
         <ContaynerBack/>
         <WordHighlighter wordsList={colorWords}/>
         <QuizBlockComponent items={QuizBlock} />
