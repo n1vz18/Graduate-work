@@ -4,6 +4,7 @@ import { FaYoutube } from "react-icons/fa6";
 import { FaPhone } from "react-icons/fa";
 import { MdOutlinePhoneIphone,  MdAttachEmail, MdAccessTimeFilled} from "react-icons/md";
 import { motion } from "framer-motion"
+import { Link } from 'react-router-dom'
 
 
 const blockAnimation = {
@@ -35,9 +36,11 @@ export default function Header(){
         <div className="container">
           <div className="header__row">
             <div className="header_logo">
-              <motion.img custom={1.5} variants={textAnimation} src={logo} alt="Logo" />
-              <motion.span custom={2} variants={textAnimation} className="header_logo_span">Центр детского творчества Канавинского Района</motion.span>
-              <motion.span custom={3} variants={textAnimation} className="Hello_English">Educational club «HELLO ENGLISH!»</motion.span></div>
+              <Link to="/">
+                <motion.img custom={1.5} variants={textAnimation} src={logo} className="logo_cdt" alt="Logo" />
+              </Link>
+              <motion.span custom={2} variants={textAnimation} className="header_logo_span">МБУ ДО ЦЕНТР ДЕТСКОГО ТВОРЧЕСТВА КАНАВИНСКОГО РАЙОНА</motion.span>
+              <motion.span custom={3} variants={textAnimation} className="Hello_English">Creative association «Communication without borders»</motion.span></div>
             <div className="social_warp">
               <ul className="social_warp_ul">
                 <motion.li custom={4} variants={blockAnimation}>

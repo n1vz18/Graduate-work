@@ -14,12 +14,12 @@
 .header_logo{
     display: flex;
     align-items: center;
-    column-gap: 15px;
+    column-gap: 18px;
 }
 
 .header_logo_span{
     font-weight: 350;
-    font-size: 22px;
+    font-size: 19px;
     line-height: 1.5;
     letter-spacing: 0.03em;
     text-transform: uppercase;
@@ -29,9 +29,9 @@
 .Hello_English{
     color: red;
     border-left: 2px solid gray;
-    padding-left: 15px;
-    font-weight: 500;
-    font-size: 22px;
+    padding-left: 10px;
+    font-weight: 450;
+    font-size: 19px;
     line-height: 1.5;
     letter-spacing: 0.03em;
     text-transform: uppercase;
@@ -51,7 +51,7 @@
    color: gray;
 }
 
-img{
+.logo_cdt{
     height: 40px;
     width: 40px;
 }

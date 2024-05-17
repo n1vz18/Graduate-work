@@ -1,10 +1,12 @@
-import { useState } from 'react'
-import Header from './components/Header/Header.jsx'
+import PageRoutes from './pages/routes.jsx'
+import { BrowserRouter } from 'react-router-dom'
 
 function App() {
   return (
     <>
-      <Header />
+      <BrowserRouter>
+        <PageRoutes />
+      </BrowserRouter>
     </>
   )
 }
