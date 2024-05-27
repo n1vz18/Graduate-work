@@ -43,8 +43,218 @@
 
 .SayH1 p {
     transition: color 0.5s ease; /* Плавный переход цвета текста в течение 0.3 секунды */
-  }
+    }
   
   .SayH1:hover p {
     color: black; /* Пример изменения цвета текста при наведении курсора */
   }
+
+  .nameLabebleColor{
+    height: 65px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+  }
+
+  .h1LableColor h1{
+    font-size: 35px;
+    line-height: 1.5;
+    letter-spacing: 0.05em;
+  }
+
+  .lable{
+    margin-top: 80px;
+  }
+
+  .pLable p{
+    font-size: 25px;
+    line-height: 1.5;
+    letter-spacing: 0.05em;
+    font-weight: 360;
+  }
+
+  .pngSeasons{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    justify-items: center;
+    gap: 10px;
+    padding: 40px;
+  }
+
+.SeasonsItem{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0;
+    padding: 15px;
+    border: 3px solid  #F4F6F5;
+    border-radius: 40px;
+}
+
+  .pngSeasons img{
+    max-width: 500px;
+    max-height: 500px;
+  }
+
+  .zadanie p{
+    font-size: 27px;
+    line-height: 1.5;
+    letter-spacing: 0.05em;
+    font-weight: 350;
+  }
+
+  .zadanie li{
+    font-size: 20px;
+    line-height: 1.5;
+    letter-spacing: 0.03em;
+  }
+  .zadanie ul{
+    margin-left: 40px;
+  }
+
+  .zadanie{
+    padding-top: 40px;
+    padding-left: 50px;
+  }
+
+  .audioLable{
+    padding-left: 30px;
+  }
+
+  .color-green::before {
+    content: '';
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background-color: green; /* Цвет квадратика */
+    margin-right: 5px; /* Расстояние между квадратиком и текстом */
+}
+
+.color-blue::before{
+    content: '';
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background-color: blue; /* Цвет квадратика */
+    margin-right: 5px; /* Расстояние между квадратиком и текстом */
+}
+
+.color-yellow::before{
+    content: '';
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background-color: yellow; /* Цвет квадратика */
+    margin-right: 5px; /* Расстояние между квадратиком и текстом */
+}
+
+.color-red::before{
+    content: '';
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background-color: red; /* Цвет квадратика */
+    margin-right: 5px; /* Расстояние между квадратиком и текстом */
+}
+
+.color-gray::before{
+    content: '';
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background-color: gray; /* Цвет квадратика */
+    margin-right: 5px; /* Расстояние между квадратиком и текстом */
+}
+
+.color-orange::before{
+    content: '';
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background-color: orange; /* Цвет квадратика */
+    margin-right: 5px; /* Расстояние между квадратиком и текстом */
+}
+
+.color-black::before{
+    content: '';
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background-color: black; /* Цвет квадратика */
+    margin-right: 5px; /* Расстояние между квадратиком и текстом */
+}
+
+.color-violet::before{
+    content: '';
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background-color: violet; /* Цвет квадратика */
+    margin-right: 5px; /* Расстояние между квадратиком и текстом */
+}
+
+.color-pink::before{
+    content: '';
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background-color: pink; /* Цвет квадратика */
+    margin-right: 5px; /* Расстояние между квадратиком и текстом */
+}
+
+.color-purple::before{
+    content: '';
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background-color: purple; /* Цвет квадратика */
+    margin-right: 5px; /* Расстояние между квадратиком и текстом */
+}
+
+.color-brown::before{
+    content: '';
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background-color: brown; /* Цвет квадратика */
+    margin-right: 5px; /* Расстояние между квадратиком и текстом */
+}
+
+.color-white::before{
+    content: '';
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background-color: rgb(226, 226, 226); /* Цвет квадратика */
+    margin-right: 5px; /* Расстояние между квадратиком и текстом */
+}
+
+.color-beige::before{
+    content: '';
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background-color: beige; /* Цвет квадратика */
+    margin-right: 5px; /* Расстояние между квадратиком и текстом */
+}
+
+.color-silver::before{
+    content: '';
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background-color: silver; /* Цвет квадратика */
+    margin-right: 5px; /* Расстояние между квадратиком и текстом */
+}
+
+.color-scarlet::before{
+    content: '';
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background-color: rgb(134, 0, 0); /* Цвет квадратика */
+    margin-right: 5px; /* Расстояние между квадратиком и текстом */
+}
