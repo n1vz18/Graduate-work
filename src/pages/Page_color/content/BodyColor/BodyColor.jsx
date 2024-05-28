@@ -5,7 +5,23 @@ import WordHighlighter from '../../../../components/WordHighlighter/WordHighligh
 import QuizBlockComponent from '../../../../components/QuizBlockComponent/QuizBlockComponent'
 import ColorFillInBlanksComponent from '../../../../components/ColorFillInBlanksComponent/ColorFillInBlanksComponent'
 import AudioComponent from '../../../../components/AudioComponent/AudioComponent'
+import AudioTxtComponent from '../../../../components/AudioTxtComponent/AudioTxtComponent'
 import audioLable1 from '../../../../assets/Lable1Color.mp3'
+import greenAudio from '../../../../assets/greenAudio.mp3'
+import blueAudio from '../../../../assets/blueAudio.mp3'
+import brownAudio from '../../../../assets/brownAudio.mp3'
+import grayAudio from '../../../../assets/grayAudio.mp3'
+import beigeAudio from '../../../../assets/beigeAudio.mp3'
+import blackAudio from '../../../../assets/blackAudio.mp3'
+import orangeAudio from '../../../../assets/orangeAudio.mp3'
+import pinkAudio from '../../../../assets/pinkAudio.mp3'
+import purpleAudio from '../../../../assets/purpleAudio.mp3'
+import redAudio from '../../../../assets/redAudio.mp3'
+import scarletAudio from '../../../../assets/scarletAudio.mp3'
+import silverAudio from '../../../../assets/silverAudio.mp3'
+import violetAudio from '../../../../assets/violetAudio.mp3'
+import whiteAudio from '../../../../assets/whiteAudio.mp3'
+import yellowAudio from '../../../../assets/yellowAudio.mp3'
 
 const textAnimation = {
   hidden: {
@@ -73,24 +89,84 @@ export default function BodyColor(){
             <div className="zadanie">
               <p>Основные цвета на английском языке: </p>
               <ul>
-                <li className="color-green"> green — зелёный;</li>
-                <li className="color-blue">blue — синий, голубой;</li>
-                <li className="color-yellow">yellow — жёлтый;</li>
-                <li className="color-red">red — красный;</li>
-                <li className="color-gray">gray — серый;</li>
-                <li className="color-orange">orange — оранжевый;</li>
-                <li className="color-black">black — чёрный;</li>
-                <li className="color-violet">violet — фиолетовый;</li>
-                <li className="color-pink">pink — розовый;</li>
-                <li className="color-purple">purple — сиреневый;</li>
-                <li className="color-brown">brown — коричневый.</li>
+                <li className="color-block">
+                  <div className='cube-green'></div>
+                  <div className="text_colordiv">green — зелёный</div>
+                  <div className="audioTxt"><AudioTxtComponent audioFile={greenAudio}/></div>
+                </li>
+                <li className="color-block">
+                  <div className='cube-blue'></div>
+                  <div className="text_colordiv">blue — синий, голубой</div>
+                  <div className="audioTxt"><AudioTxtComponent audioFile={blueAudio} /></div>
+                </li>
+                <li className="color-block">
+                  <div className='cube-yellow'></div>
+                  <div className="text_colordiv">yellow — жёлтый</div>
+                  <div className="audioTxt"><AudioTxtComponent audioFile={yellowAudio} /></div>
+                </li>
+                <li className="color-block">
+                  <div className='cube-red'></div>
+                  <div className="text_colordiv">red — красный</div>
+                  <div className="audioTxt"><AudioTxtComponent audioFile={redAudio} /></div>
+                </li>
+                <li className="color-block">
+                  <div className='cube-gray'></div>
+                  <div className="text_colordiv">gray — серый</div>
+                  <div className="audioTxt"><AudioTxtComponent audioFile={grayAudio} /></div>
+                </li>
+                <li className="color-block">
+                  <div className='cube-orange'></div>
+                  <div className="text_colordiv">orange — оранжевый</div>
+                  <div className="audioTxt"><AudioTxtComponent audioFile={orangeAudio} /></div>
+                </li>
+                <li className="color-block">
+                  <div className='cube-black'></div>
+                  <div className="text_colordiv">black — чёрный</div>
+                  <div className="audioTxt"><AudioTxtComponent audioFile={blackAudio} /></div>
+                </li>
+                <li className="color-block">
+                  <div className='cube-violet'></div>
+                  <div className="text_colordiv">violet — фиолетовый</div>
+                  <div className="audioTxt"><AudioTxtComponent audioFile={violetAudio} /></div>
+                </li>
+                <li className="color-block">
+                  <div className='cube-pink'></div>
+                  <div className="text_colordiv">pink — розовый</div>
+                  <div className="audioTxt"><AudioTxtComponent audioFile={pinkAudio} /></div>
+                </li>
+                <li className="color-block">
+                  <div className='cube-purple'></div>
+                  <div className="text_colordiv">purple — сиреневый</div>
+                  <div className="audioTxt"><AudioTxtComponent audioFile={purpleAudio} /></div>
+                </li>
+                <li className="color-block">
+                  <div className='cube-brown'></div>
+                  <div className="text_colordiv">brown — коричневый</div>
+                  <div className="audioTxt"><AudioTxtComponent audioFile={brownAudio} /></div>
+                </li>
               </ul>
               <p>Также есть и другие часто употребляемые цвета: </p>
               <ul>
-                <li className="color-white">white — белый;</li>
-                <li className="color-beige">beige — бежевый;</li>
-                <li className="color-silver">silver — серебряный;</li>
-                <li className="color-scarlet">scarlet — алый, ярко-красный, багряный.</li>
+                <li className="color-block">
+                  <div className='cube-white'></div>
+                  <div className="text_colordiv">white — белый</div>
+                  <div className="audioTxt"><AudioTxtComponent audioFile={whiteAudio} /></div>
+                </li>
+                <li className="color-block">
+                  <div className='cube-beige'></div>
+                  <div className="text_colordiv">beige — бежевый</div>
+                  <div className="audioTxt"><AudioTxtComponent audioFile={beigeAudio} /></div>
+                </li>
+                <li className="color-block">
+                  <div className='cube-silver'></div>
+                  <div className="text_colordiv">silver — серебряный</div>
+                  <div className="audioTxt"><AudioTxtComponent audioFile={silverAudio} /></div>
+                </li>
+                <li className="color-block">
+                  <div className='cube-scarlet'></div>
+                  <div className="text_colordiv">scarlet — алый, ярко-красный, багряныйй</div>
+                  <div className="audioTxt"><AudioTxtComponent audioFile={scarletAudio} /></div>
+                </li>
               </ul>
             </div>
           </div>
