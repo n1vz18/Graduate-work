@@ -1,0 +1,58 @@
+.zadanie p{
+    font-size: 27px;
+    line-height: 1.5;
+    letter-spacing: 0.05em;
+    font-weight: 350;
+  }
+  .zadanie{
+    padding-top: 40px;
+    padding-left: 50px;
+  }
+
+  .block_png_eat{
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+  }
+
+  .block_png_eat img{
+    height: 300px;
+  }
+
+  .eat-block{
+    margin-bottom: 12px;
+  }
+
+  .eat-ticket{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 20px;
+    border: 2px solid transparent; /* устанавливаем прозрачную границу */
+    transition: border-color 0.5s;
+    width: 54%;
+  }
+
+  .eat-ticket:hover {
+    border-color: gray;
+  }
+
+
+  .eat-block img{
+    height: 200px;
+  }
+
+  .text_eatdiv{
+    font-size: 30px;
+    letter-spacing: 0.03em;
+    font-weight: 400;
+  }
+
+  .txttranslate{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+  }
