@@ -1,7 +1,7 @@
 import React, { useRef } from 'react';
-import { motion } from "framer-motion"
 import './audioTxtComponent.css'
 import { MdSpatialAudioOff } from "react-icons/md";
+import { motion } from "framer-motion"
 
 const AudioTxtComponent = ({ audioFile }) => {
     const audioRef = useRef();

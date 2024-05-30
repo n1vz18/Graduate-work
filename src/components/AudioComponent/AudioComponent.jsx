@@ -1,6 +1,6 @@
 import React, { useRef } from 'react';
-import { motion } from "framer-motion"
 import './audioComponent.css'
+import { motion } from "framer-motion"
 
 const AudioComponent = ({ audioFile }) => {
     const audioRef = useRef();

@@ -3,18 +3,6 @@ import { motion } from "framer-motion"
 import React, { useState } from 'react';
 
 
-const textAnimation = {
-  hidden: {
-    x: -100,
-    opacity: 0,
-  },
-  visible: custom => ({
-    x: 0,
-    opacity: 1,
-    transition: { delay: custom * 0.3}
-  }),
-}
-
 
 const FillBlanksComponent = () => {
   const [answers, setAnswers] = useState(['', '', '', '', '', '']);

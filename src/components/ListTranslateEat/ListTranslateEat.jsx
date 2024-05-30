@@ -1,5 +1,4 @@
 import './list_translate_eat.css'
-import { motion } from "framer-motion"
 import AudioTxtComponent from '../AudioTxtComponent/AudioTxtComponent'
 import mineral_waterAudio from '../../assets/mineral_waterAudio.mp3'
 import juiceAudio from '../../assets/juiceAudio.mp3'
@@ -20,18 +19,6 @@ import a_cakeAudio from '../../assets/a_cakeAudio.mp3'
 import toastAudio from '../../assets/toastAudio.mp3'
 import a_sandwichAudio from '../../assets/a_sandwichAudio.mp3'
 
-
-const textAnimation = {
-  hidden: {
-    x: -100,
-    opacity: 0,
-  },
-  visible: custom => ({
-    x: 0,
-    opacity: 1,
-    transition: { delay: custom * 0.3}
-  }),
-}
 
 
 export default function listTranslateEat(){

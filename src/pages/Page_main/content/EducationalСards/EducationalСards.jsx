@@ -75,9 +75,9 @@ export default function EducationalСards (){
                     В этой карточке вы можете погрузиться в мир цветов и изучить их разнообразие!  Узнайте названия цветов на английском и связанные с ними предметы и явления. Разнообразные задания помогут вам научиться распознавать и называть цвета с уверенностью
                   </div>
                   <motion.div whileHover={{ scale: 1.2 }} whileTap={{ scale: 0.9 }} transition={{ type: "spring", stiffness: 400, damping: 17 }} className="span_text_cloth">
-                    <a href="">
+                    <Link to="/pageCloth">
                       <motion.span>Начать изучать</motion.span>
-                    </a>
+                    </Link>
                   </motion.div>
                 </div>
             </motion.div>
