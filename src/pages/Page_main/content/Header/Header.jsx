@@ -32,29 +32,34 @@ const textAnimation = {
 export default function Header(){
     return (
       <motion.header initial="hidden" whileInView="visible" className="header">
-        <div className="container">
-          <div className="header__row">
-            <div className="header_logo">
+        <div className="container header-flex">
+          <div className="blockLeft">
+            <div className="imageLogo">
               <Link to="/">
-                <motion.img custom={1.5} variants={textAnimation} src={logo} className="logo_cdt" alt="Logo" />
+                 <motion.img custom={1.5} variants={textAnimation} src={logo} alt="" />
               </Link>
-              <motion.span custom={2} variants={textAnimation} className="header_logo_span">МБУ ДО ЦЕНТР ДЕТСКОГО ТВОРЧЕСТВА КАНАВИНСКОГО РАЙОНА</motion.span>
-              <motion.span custom={3} variants={textAnimation} className="Hello_English">Creative association «Communication without borders»</motion.span></div>
-            <div className="social_warp">
-              <ul className="social_warp_ul">
-                <motion.li custom={4} variants={blockAnimation}>
-                  <span><FaPhone size={16} color="gray"/></span>
-                  <p>+7(831)243-15-96</p>
+            </div>
+            <div className="txtLogo">
+              <motion.p custom={2} variants={textAnimation} className="header_logo_txt">МБУ ДО ЦЕНТР ДЕТСКОГО ТВОРЧЕСТВА КАНАВИНСКОГО РАЙОНА</motion.p>
+              <motion.p custom={3} variants={textAnimation} className="Hello_English">Creative association «Communication without borders»</motion.p>
+            </div>
+          </div>
+          <div className="blockRight">
+            <div className="blockUl">
+              <ul>
+                <motion.li custom={1.5} variants={blockAnimation}>
+                    <span><FaPhone size={16} color="gray"/></span>
+                    <p>+7(831)243-15-96</p>
                 </motion.li>
-                <motion.li custom={3} variants={blockAnimation}>
+                <motion.li custom={2} variants={blockAnimation}>
                   <span><MdOutlinePhoneIphone size={16} color="gray"/></span>
                   <p>+7(831)243-18-93</p>
                 </motion.li>
-                <motion.li custom={2} variants={blockAnimation}>
+                <motion.li custom={3} variants={blockAnimation}>
                   <span><MdAttachEmail size={16} color="gray"/></span>
                   <p>cdt_kan_nn@mail.52gov.ru</p>
                 </motion.li>
-                <motion.li custom={1.5} variants={blockAnimation}>
+                <motion.li custom={4} variants={blockAnimation}>
                   <span><MdAccessTimeFilled size={16} color="gray"/></span>
                   <p>Пн-Сб 8.00 - 20.00</p>
                 </motion.li>

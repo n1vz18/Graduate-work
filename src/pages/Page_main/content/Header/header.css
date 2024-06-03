@@ -1,57 +1,76 @@
 
 .header{
-    padding: 25px 0 15px;
+    padding: 20px 0 15px;
     box-shadow: 0 4px 3px rgba(0, 0, 0, 0.1);
+    background: rgb(236, 236, 236);
 }
 
-.header__row{
+.header-flex{
     display: flex;
-    column-gap: 30px;
+    flex-wrap: wrap;
+    justify-content: space-around;
     align-items: center;
-    justify-content: space-between;
+    gap: 20px;
 }
 
-.header_logo{
+.blockLeft{
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
-    column-gap: 18px;
+    justify-content: center;
+    gap: 15px;
+    max-width: 1200px;
 }
 
-.header_logo_span{
+.txtLogo{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.header_logo_txt{
     font-weight: 350;
     font-size: 19px;
     line-height: 1.5;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    text-align: center;
 }
-
 
 .Hello_English{
     color: red;
-    border-left: 2px solid gray;
-    padding-left: 10px;
     font-weight: 450;
     font-size: 19px;
     line-height: 1.5;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    text-align: center;
 }
 
-.social_warp li{
-    display: flex;
-    align-items: center;
-    column-gap: 6px;
-    
-}
-.social_warp span{
-    display: flex;
-    align-items: center;
-}
-.social_warp a{
-   color: gray;
+.imageLogo img{
+    height: 60px;
 }
 
-.logo_cdt{
-    height: 40px;
-    width: 40px;
+.blockUl li{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.blockUl p{
+    color: gray;
+    letter-spacing: 0.05em;
+    text-align: center;
+}
+
+@media (max-width: 1458px) {
+    .blockUl ul{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+    }
 }
