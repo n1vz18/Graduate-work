@@ -36,7 +36,7 @@ export default function Header(){
           <div className="blockLeft">
             <div className="imageLogo">
               <Link to="/">
-                 <motion.img custom={1.5} variants={textAnimation} src={logo} alt="" />
+                 <motion.img whileHover={{ scale: 1.2 }} whileTap={{ scale: 0.9 }} transition={{ type: "spring", stiffness: 400, damping: 17 }} custom={1.5} variants={textAnimation} src={logo} alt="" />
               </Link>
             </div>
             <div className="txtLogo">
