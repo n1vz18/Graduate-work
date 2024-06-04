@@ -1,15 +1,4 @@
-.zadanie p{
-    font-size: 27px;
-    line-height: 1.5;
-    letter-spacing: 0.05em;
-    font-weight: 350;
-  }
-  .zadanie{
-    padding-top: 40px;
-    padding-left: 50px;
-  }
-
-  .block_png_eat{
+ /* .block_png_eat{
     display: flex;
     gap: 25px;
     justify-content: center;
@@ -31,7 +20,7 @@
     flex-wrap: wrap;
     align-items: center;
     gap: 20px;
-    border: 2px solid transparent; /* устанавливаем прозрачную границу */
+    border: 2px solid transparent; 
     transition: border-color 0.5s;
     width: 54%;
   }
@@ -55,4 +44,4 @@
     display: flex;
     align-items: center;
     gap: 15px;
-  }
+  } */

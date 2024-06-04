@@ -8,17 +8,6 @@ import QuizBlockComponent from '../../../../components/QuizBlockComponent/QuizBl
 import EatFillInBlanksComponent from '../../../../components/EatFillInBlanksComponent/EatFillInBlanksComponent'
 
 
-const textAnimation = {
-  hidden: {
-    x: -100,
-    opacity: 0,
-  },
-  visible: custom => ({
-    x: 0,
-    opacity: 1,
-    transition: { delay: custom * 0.3}
-  }),
-}
 
 const colorWords = [
   { text: 'Mous', isColor: false, isCrossedOut: false },
@@ -57,17 +46,18 @@ export default function BodyEat(){
             </div>
           </div>
           <div className="lable">
-            <div className="block_png_eat">
-              <div className="png1"><img src="https://77.rospotrebnadzor.ru/images/fastfood.jpg" alt="Фастфуд" /></div>
-              <div className="png2"><img src="https://www.menslife.com/upload/iblock/84f/polza_ovoshchej.jpg" alt="Овощи" /></div>
-              <div className="png3"><img src="https://www.obedsmile.ru/images/stories/article/kak-pravilno-est-sladkoe.jpg" alt="Сладкое" /></div>
+            <div className="pngSeasons">
+              <div className="SeasonsItem"><img src="https://77.rospotrebnadzor.ru/images/fastfood.jpg" alt="Фастфуд" /></div>
+              <div className="SeasonsItem"><img src="https://runews24.ru/assets/images/uploads/2024/1/19/7cf478da7ff809b7aadff41bca8c2750.png" alt="завтрак" /></div>
+              <div className="SeasonsItem"><img src="https://www.ok-magazine.ru/images/cache/2023/3/3/heighten_1000_q90_1818841_fc232c8fd069e0a6a491292ff.jpeg" alt="Сладкое" /></div>
+              <div className="SeasonsItem"><img src="https://pazlyigra.ru/uploads/posts/2021-01/1611123841_2020food___berries_and_fruits_and_nuts_lots_of_fresh_vegetables_and_fruits_close_up_145555_.jpg" alt="Овощи" /></div>
             </div>
             <div className="pLable"><p>1.Речевая разминка: Look at the pictures, please! Answer the questions. – посмотри на картинки пожалуйста! Ответь на вопросы.</p></div>
             <div className="zadanie">
               <HoverLableTextChange oldText="What do you like?" newText="Что тебе нравится?" />
               <HoverLableTextChange oldText="I like ... and ... Who likes milk?" newText="Я люблю... и... Кто любит молоко?" />
               <HoverLableTextChange oldText="Thank you very much!" newText="Большое спасибо!" />
-              <p>Расскажите пожалуйста. Какая еда вам навится?</p></div>
+              <p>Расскажите, пожалуйста. Какая еда вам навится?</p></div>
           </div>
           <div className="lable">
             <div className="pLable"><p>2.Работа по теме урока: Listen to me, try to find the worlds. – Послушай меня, постарайся повторить слова.</p></div>

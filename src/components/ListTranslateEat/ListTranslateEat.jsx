@@ -23,8 +23,8 @@ import a_sandwichAudio from '../../assets/a_sandwichAudio.mp3'
 
 export default function listTranslateEat(){
     return (
-      <div className="zadanie">
-              <ul>
+      <div className="zadanie_translate_eat">
+              <ul className='ul-translate'>
                 <li className="eat-block">
                   <div className="eat-ticket">
                     <div className='image-eat'><img src="https://img.vkusvill.ru/pim/images/site_LargeWebP/1c069624-eabb-42a6-b44a-b057eb007e46.webp?1660228097.856" alt="сендвич" /></div>

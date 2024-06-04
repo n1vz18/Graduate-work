@@ -74,100 +74,104 @@ export default function BodyColor(){
             </div>
           </div>
           <div className="lable">
-            <div className="pLable"><p>1. Речевая разминка: Listen to me, and repeat the poem - послушай меня и повтори стихотворение</p></div>
             <div className="pngSeasons">
               <div className="SeasonsItem"><img src="https://uprostim.com/wp-content/uploads/2021/04/image089-1.jpg" alt="Spring" /></div>
               <div className="SeasonsItem"><img src="https://klike.net/uploads/posts/2023-01/1674396452_3-63.jpg" alt="Summer" /></div>
               <div className="SeasonsItem"><img src="https://klike.net/uploads/posts/2022-08/1661232497_j-4.jpg" alt="Autumn" /></div>
               <div className="SeasonsItem"><img src="https://www.w-dog.ru/wallpapers/10/15/544320050508419/priroda-derevya-sad-park-fonar-dom-zima-sneg-nebo-pejzazh-zimnie-belyj.jpg" alt="Winter" /></div>
             </div>
-            <div className="audioLable"><AudioComponent audioFile={audioLable1}/></div>
-            <div className="zadanie"><p>Spring is green</p><p>Summer is bright</p><p>Autumn is yellow</p><p>Winter is white.</p></div>
+            <div className="pLable"><p>1. Речевая разминка: Listen to me, and repeat the poem - послушай меня и повтори стихотворение</p></div>
+            <div className="audioLable"></div>
+            <div className="zadanie zadinie_lable"><div><p>Spring is green</p><p>Summer is bright</p><p>Autumn is yellow</p><p>Winter is white.</p></div> <AudioComponent audioFile={audioLable1}/></div>
           </div>
           <div className="lable">
             <div className="pLable"><p>2. Работа по теме урока Listen to me, try to remember the colours - Послушай меня, постарайся запомнить цвета.</p></div>
-            <div className="zadanie">
-              <p>Основные цвета на английском языке: </p>
-              <ul>
-                <li className="color-block">
-                  <div className='cube-green'></div>
-                  <div className="text_colordiv">green — зелёный</div>
-                  <div className="audioTxt"><AudioTxtComponent audioFile={greenAudio}/></div>
-                </li>
-                <li className="color-block">
-                  <div className='cube-blue'></div>
-                  <div className="text_colordiv">blue — синий, голубой</div>
-                  <div className="audioTxt"><AudioTxtComponent audioFile={blueAudio} /></div>
-                </li>
-                <li className="color-block">
-                  <div className='cube-yellow'></div>
-                  <div className="text_colordiv">yellow — жёлтый</div>
-                  <div className="audioTxt"><AudioTxtComponent audioFile={yellowAudio} /></div>
-                </li>
-                <li className="color-block">
-                  <div className='cube-red'></div>
-                  <div className="text_colordiv">red — красный</div>
-                  <div className="audioTxt"><AudioTxtComponent audioFile={redAudio} /></div>
-                </li>
-                <li className="color-block">
-                  <div className='cube-gray'></div>
-                  <div className="text_colordiv">gray — серый</div>
-                  <div className="audioTxt"><AudioTxtComponent audioFile={grayAudio} /></div>
-                </li>
-                <li className="color-block">
-                  <div className='cube-orange'></div>
-                  <div className="text_colordiv">orange — оранжевый</div>
-                  <div className="audioTxt"><AudioTxtComponent audioFile={orangeAudio} /></div>
-                </li>
-                <li className="color-block">
-                  <div className='cube-black'></div>
-                  <div className="text_colordiv">black — чёрный</div>
-                  <div className="audioTxt"><AudioTxtComponent audioFile={blackAudio} /></div>
-                </li>
-                <li className="color-block">
-                  <div className='cube-violet'></div>
-                  <div className="text_colordiv">violet — фиолетовый</div>
-                  <div className="audioTxt"><AudioTxtComponent audioFile={violetAudio} /></div>
-                </li>
-                <li className="color-block">
-                  <div className='cube-pink'></div>
-                  <div className="text_colordiv">pink — розовый</div>
-                  <div className="audioTxt"><AudioTxtComponent audioFile={pinkAudio} /></div>
-                </li>
-                <li className="color-block">
-                  <div className='cube-purple'></div>
-                  <div className="text_colordiv">purple — сиреневый</div>
-                  <div className="audioTxt"><AudioTxtComponent audioFile={purpleAudio} /></div>
-                </li>
-                <li className="color-block">
-                  <div className='cube-brown'></div>
-                  <div className="text_colordiv">brown — коричневый</div>
-                  <div className="audioTxt"><AudioTxtComponent audioFile={brownAudio} /></div>
-                </li>
-              </ul>
-              <p>Также есть и другие часто употребляемые цвета: </p>
-              <ul>
-                <li className="color-block">
-                  <div className='cube-white'></div>
-                  <div className="text_colordiv">white — белый</div>
-                  <div className="audioTxt"><AudioTxtComponent audioFile={whiteAudio} /></div>
-                </li>
-                <li className="color-block">
-                  <div className='cube-beige'></div>
-                  <div className="text_colordiv">beige — бежевый</div>
-                  <div className="audioTxt"><AudioTxtComponent audioFile={beigeAudio} /></div>
-                </li>
-                <li className="color-block">
-                  <div className='cube-silver'></div>
-                  <div className="text_colordiv">silver — серебряный</div>
-                  <div className="audioTxt"><AudioTxtComponent audioFile={silverAudio} /></div>
-                </li>
-                <li className="color-block">
-                  <div className='cube-scarlet'></div>
-                  <div className="text_colordiv">scarlet — алый, ярко-красный, багряныйй</div>
-                  <div className="audioTxt"><AudioTxtComponent audioFile={scarletAudio} /></div>
-                </li>
-              </ul>
+            <div className="zadanie zadinie_lable_translate">
+              <div>
+                <p>Основные цвета на английском языке: </p>
+                  <ul>
+                    <li className="color-block">
+                      <div className='cube-green'></div>
+                      <div className="text_colordiv">green — зелёный</div>
+                      <div className="audioTxt"><AudioTxtComponent audioFile={greenAudio}/></div>
+                    </li>
+                    <li className="color-block">
+                      <div className='cube-blue'></div>
+                      <div className="text_colordiv">blue — синий, голубой</div>
+                      <div className="audioTxt"><AudioTxtComponent audioFile={blueAudio} /></div>
+                    </li>
+                    <li className="color-block">
+                      <div className='cube-yellow'></div>
+                      <div className="text_colordiv">yellow — жёлтый</div>
+                      <div className="audioTxt"><AudioTxtComponent audioFile={yellowAudio} /></div>
+                    </li>
+                    <li className="color-block">
+                      <div className='cube-red'></div>
+                      <div className="text_colordiv">red — красный</div>
+                      <div className="audioTxt"><AudioTxtComponent audioFile={redAudio} /></div>
+                    </li>
+                    <li className="color-block">
+                      <div className='cube-gray'></div>
+                      <div className="text_colordiv">gray — серый</div>
+                      <div className="audioTxt"><AudioTxtComponent audioFile={grayAudio} /></div>
+                    </li>
+                    <li className="color-block">
+                      <div className='cube-orange'></div>
+                      <div className="text_colordiv">orange — оранжевый</div>
+                      <div className="audioTxt"><AudioTxtComponent audioFile={orangeAudio} /></div>
+                    </li>
+                    <li className="color-block">
+                      <div className='cube-black'></div>
+                      <div className="text_colordiv">black — чёрный</div>
+                      <div className="audioTxt"><AudioTxtComponent audioFile={blackAudio} /></div>
+                    </li>
+                    <li className="color-block">
+                      <div className='cube-violet'></div>
+                      <div className="text_colordiv">violet — фиолетовый</div>
+                      <div className="audioTxt"><AudioTxtComponent audioFile={violetAudio} /></div>
+                    </li>
+                    <li className="color-block">
+                      <div className='cube-pink'></div>
+                      <div className="text_colordiv">pink — розовый</div>
+                      <div className="audioTxt"><AudioTxtComponent audioFile={pinkAudio} /></div>
+                    </li>
+                    <li className="color-block">
+                      <div className='cube-purple'></div>
+                      <div className="text_colordiv">purple — сиреневый</div>
+                      <div className="audioTxt"><AudioTxtComponent audioFile={purpleAudio} /></div>
+                    </li>
+                    <li className="color-block">
+                      <div className='cube-brown'></div>
+                      <div className="text_colordiv">brown — коричневый</div>
+                      <div className="audioTxt"><AudioTxtComponent audioFile={brownAudio} /></div>
+                    </li>
+                  </ul>
+              </div>
+              <div>
+                <p>Также есть и другие часто употребляемые цвета: </p>
+                <ul>
+                  <li className="color-block">
+                    <div className='cube-white'></div>
+                    <div className="text_colordiv">white — белый</div>
+                    <div className="audioTxt"><AudioTxtComponent audioFile={whiteAudio} /></div>
+                  </li>
+                  <li className="color-block">
+                    <div className='cube-beige'></div>
+                    <div className="text_colordiv">beige — бежевый</div>
+                    <div className="audioTxt"><AudioTxtComponent audioFile={beigeAudio} /></div>
+                  </li>
+                  <li className="color-block">
+                    <div className='cube-silver'></div>
+                    <div className="text_colordiv">silver — серебряный</div>
+                    <div className="audioTxt"><AudioTxtComponent audioFile={silverAudio} /></div>
+                  </li>
+                  <li className="color-block">
+                    <div className='cube-scarlet'></div>
+                    <div className="text_colordiv">scarlet — алый, ярко-красный</div>
+                    <div className="audioTxt"><AudioTxtComponent audioFile={scarletAudio} /></div>
+                  </li>
+                </ul>
+              </div>
             </div>
           </div>
           <div className="lable">
@@ -186,9 +190,12 @@ export default function BodyColor(){
             </div>
           </div>
           <div className="lable">
-            <div className="pLable"><p>4.Тренировка изучаемой лексики.</p></div>
-            <div className="zadanie"><p>Упражнение 1</p> <p>Go to the blackboard and find the words in column. Зачеркни лишнее слово в каждом столбце</p> <WordHighlighter wordsList={colorWords}/> </div>
-            <div className="zadanie"><p>Упражнение 2 - Письмо</p> <p>Open your copy books, write down the date. Let’s do the exercise. Look at the blackboard.</p><p>Задание: Спиши предложения заменяя русские слова английскими, прочитайте слова</p> <QuizBlockComponent items={QuizBlock} /></div>
+            <div className="pLable"><p>4.Тренировка изучаемой лексики.</p><p>Упражнение 1</p></div>
+            <div className="zadanie"><p>Go to the blackboard and find the words in column. Зачеркни лишнее слово в каждом столбце</p> <WordHighlighter wordsList={colorWords}/> </div>
+          </div>
+          <div className="lable">
+            <div className="pLable"><p>Упражнение 2</p></div>
+            <div className="zadanie"><p>Open your copy books, write down the date. Let’s do the exercise. Look at the blackboard.</p><p>Задание: Спиши предложения заменяя русские слова английскими, прочитайте слова</p> <QuizBlockComponent items={QuizBlock} /></div>
           </div>
           <div className="lable">
             <div className="pLable"><p>5.	Практическая часть</p></div>

@@ -17,7 +17,7 @@ const WordHighlighter = ({ wordsList }) => {
     };
 
     return (
-        <div className="container">
+        <div className="container-QuizBlock">
             <div className="color-words-container">
             {words.map((word, index) => (
                 <motion.span

@@ -1,5 +1,4 @@
 import './color_fillIn.css'
-import { motion } from "framer-motion"
 import React, { useState } from 'react';
 
 
@@ -42,7 +41,7 @@ const FillBlanksComponent = () => {
   };
 
   return (
-      <div className='container'>
+      <div>
           <p>1. {placeholders[0]} <input 
               type="text" 
               value={answers[0]} 

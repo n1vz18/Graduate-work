@@ -21,10 +21,9 @@ const QuizBlockComponent = ({ items }) => {
   };
 
   return (
-    <div className="container">
-      <div>
+      <div className='container-QuizBlock'>
         {sentences.map((sentence, index) => (
-          <div key={index} style={{ border: `3px solid ${sentence.answeredCorrectly === true ? 'green' : sentence.answeredCorrectly === false ? 'red' : '#F4F6F5'}`, padding: '10px', margin: '10px', borderRadius: '5px' }} className='map-block'>
+          <div key={index} style={{ border: `3px solid ${sentence.answeredCorrectly === true ? 'green' : sentence.answeredCorrectly === false ? 'red' : '#F4F6F5'}`, padding: '10px', borderRadius: '5px' }} className='map-block'>
             <h1 className='h1-english-tickets'>{sentence.english}{sentence.selectedOption || sentence.russian}.</h1>
             <label>
               Выберите правильный перевод слова <strong>{sentence.russian}:</strong>
@@ -38,7 +37,6 @@ const QuizBlockComponent = ({ items }) => {
           </div>
         ))}
       </div>
-    </div>
   );
 };
 

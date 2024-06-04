@@ -2,6 +2,7 @@
     font-weight: 300;
     font-size: 17px;
     letter-spacing: 0.05em;
+    margin: 10px;
 }
 
 .h1-english-tickets{
@@ -15,3 +16,25 @@
     border: 3px solid  #F4F6F5;
     border-radius: 60px;
 }
+
+
+
+@media (max-width: 426px) {
+    .map-block{
+        font-size: 16px;
+        margin: 2px;
+    }
+    .h1-english-tickets{
+        font-size: 20px;
+    }
+  }
+
+  @media (max-width: 320px) {
+    .map-block{
+        font-size: 14px;
+        margin: 1px;
+    }
+    .h1-english-tickets{
+        font-size: 18px;
+    }
+  }

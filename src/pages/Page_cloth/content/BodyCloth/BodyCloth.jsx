@@ -9,26 +9,6 @@ import ListTranslateCloth from '../../../../components/ListTranslateCloth/ListTr
 import ClothImgFillInBlanksComponent from '../../../../components/ClothImgFillInBlanksComponent/ClothImgFillIn'
 
 
-const textAnimation = {
-  hidden: {
-    x: -100,
-    opacity: 0,
-  },
-  visible: custom => ({
-    x: 0,
-    opacity: 1,
-    transition: { delay: custom * 0.3}
-  }),
-}
-const blockAnimation = {
-  hidden: {
-    opacity: 0,
-  },
-  visible: custom => ({
-    opacity: 1,
-    transition: { delay: custom * 0.3}
-  }),
-}
 
 const colorWords = [
   { text: 'Party', isColor: false, isCrossedOut: false },
@@ -58,30 +38,30 @@ export default function BodyCloth(){
       <motion.div initial="hidden" whileInView="visible">
         <div className="container">
           <ContaynerBack/>
-          <motion.div custom={2.5} variants={blockAnimation} className="nameLabebleColor">
+          <div className="nameLabebleColor">
             <div className="h1LableColor">
               <h1>Изучаем тему «Одежда»</h1>
             </div>
-          </motion.div>
-          <motion.div custom={3.5} variants={blockAnimation} className="lable">
+          </div>
+          <div  className="lable">
             <div className="block_png_eat">
               <div className="png1"><img src="https://garderob61.ru/images/006/288/620/6288620/990xnoinc/MhCnB_JMGvo.jpg" alt="Рубашка" /></div>
               <div className="png2"><img src="https://reflex-studio.ru/wa-data/public/shop/products/82/52/5282/images/11429/11429.750@2x.jpg" alt="Футболка" /></div>
               <div className="png3"><img src="https://ae01.alicdn.com/kf/S87c86c6abde84467b34e3a25663b6d0fX.jpg" alt="Платье" /></div>
             </div>
-            <motion.div custom={4.5} variants={blockAnimation} className="pLable"><p>1.Речевая разминка: Look at the pictures, please! Answer the questions. – посмотри на картинки пожалуйста! Ответь на вопросы.</p></motion.div>
-            <motion.div custom={5} variants={blockAnimation} className="zadanie">
+            <div className="pLable"><p>1.Речевая разминка: Look at the pictures, please! Answer the questions. – посмотри на картинки пожалуйста! Ответь на вопросы.</p></div>
+            <div className="zadanie">
               <HoverLableTextChange oldText="What clothes do you see?" newText="Какую одежду вы видите?" />
               <HoverLableTextChange oldText="Do you like these clothes?" newText="Вам нравится эта одежда?" />
               <HoverLableTextChange oldText="Why, why not?" newText="Почему, почему нет?" />
               <HoverLableTextChange oldText="Would you like to have it?" newText="Хотели бы вы это иметь?" />
               <p>Наведитесь на текст если затрудняетесь с вопросом! 😃</p>
-            </motion.div>
-          </motion.div>
-          <motion.div custom={5.5} variants={blockAnimation} className="lable">
+            </div>
+          </div>
+          <div className="lable">
             <div className="pLable"><p>2. Работа по теме урока: - Listen to me, try to find the words- Послушай меня, постарайся запомнить слова.</p></div>
             <ListTranslateCloth />
-          </motion.div>
+          </div>
           <div className="lable">
             <div className="pLable"><p>3. Работа по теме урока «Одежда по погоде»: Прочитай предложение и выбери подходящую одежду для разных погодных условий! Попробуй объяснить свой выбор на английском.</p></div>
             <div className="zadanie">

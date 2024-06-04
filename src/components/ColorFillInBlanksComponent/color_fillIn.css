@@ -1,0 +1,11 @@
+@media (max-width: 425px) {
+    .zadanie input {
+        width: 90px;
+    }
+  }
+
+  @media (max-width: 320px) {
+    .zadanie input {
+        width: 45px;
+    }
+  }  

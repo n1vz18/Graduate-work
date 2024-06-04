@@ -1,55 +1,4 @@
-
-.boxBack{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
-    height: 50px;
-    margin-top: 35px;
-}
-
-.buttonBack{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 9%;
-    height: 100%;
-    border: 3px solid  #F4F6F5;
-    border-radius: 60px;
-}
-
-.spanBlock{
-    display: flex;
-    gap: 3px;
-}
-
-.spanBack{
-    display: flex;
-    color: #000000;
-    font-weight: 350;
-    font-size: 18px;
-    letter-spacing: 0.05em;
-}
-
-.SayH1{
-    color: red;
-    font-weight: 450;
-    font-size: 19px;
-    line-height: 1.5;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-}
-
-.SayH1 p {
-    transition: color 0.5s ease; /* Плавный переход цвета текста в течение 0.3 секунды */
-    }
-  
-  .SayH1:hover p {
-    color: black; /* Пример изменения цвета текста при наведении курсора */
-  }
-
-  .nameLabebleColor{
+ .nameLabebleColor{
     height: 65px;
     width: 100%;
     display: flex;
@@ -77,28 +26,46 @@
 
   .pngSeasons{
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(2, 1fr);
-    justify-items: center;
-    gap: 10px;
-    padding: 40px;
+    grid-template-columns: repeat(auto-fit, minmax(235px, 1fr));
+    gap: 5px;
+    margin-bottom: 30px;
   }
 
 .SeasonsItem{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #f0f0f0;
-    padding: 15px;
-    border: 3px solid  #F4F6F5;
-    border-radius: 40px;
+  padding: 20px;
+  transition: transform 0.3s ease; 
+    
 }
 
   .pngSeasons img{
-    max-width: 500px;
-    max-height: 500px;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
   }
 
+  @media screen and (max-width: 600px) {
+    .SeasonsItem {
+        transition: none; 
+    }
+}
+
+.SeasonsItem:hover {
+    transform: scale(1.1);
+}
+
+  .zadinie_lable{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 35px;
+    align-items: center;
+  }
+
+  .zadinie_lable_translate{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 35px;
+    justify-content: space-around;
+  }
   .zadanie p{
     font-size: 27px;
     line-height: 1.5;
@@ -234,4 +201,97 @@
   height: 15px;
   background-color: rgb(242, 54, 54);
   margin-right: 10px;
+}
+
+@media (max-width: 1246px) {
+  .zadinie_lable_translate{
+    flex-direction: column;
+    
+  }
+}
+
+@media (max-width: 768px) {
+  .zadanie p{
+    font-size: 25px;
+  }
+}
+
+@media (max-width: 425px) {
+  .zadanie p{
+    font-size: 21px;
+    margin-bottom: 10px;
+  }
+
+  .zadanie{
+    padding-left: 1px;
+  }
+
+  .zadanie ul{
+    margin-left: 5px;
+  }
+
+  .zadanie li{
+    font-size: 18px;
+  }
+  .h1LableColor h1{
+    font-size: 30px;
+  }
+  .pLable p{
+    font-size: 23px;
+  }
+
+  .lable{
+    margin-top: 66px;
+  }
+}
+@media (max-width: 375px) {
+  .zadanie p{
+    font-size: 19px;
+    margin-bottom: 10px;
+  }
+
+  .zadanie{
+    padding-left: 1px;
+  }
+
+
+  .zadanie li{
+    font-size: 18px;
+  }
+  .h1LableColor h1{
+    font-size: 26px;
+  }
+  .pLable p{
+    font-size: 20px;
+  }
+
+  .lable{
+    margin-top: 58px;
+  }
+}
+
+@media (max-width: 320px) {
+  .zadanie p{
+    font-size: 18px;
+    margin-bottom: 8px;
+  }
+
+  .zadanie{
+    padding-left: 1px;
+  }
+
+
+  .zadanie li{
+    font-size: 15px;
+  }
+  .h1LableColor h1{
+    font-size: 23px;
+  }
+  .pLable p{
+    font-size: 18px;
+  }
+
+  .lable{
+    margin-top: 58px;
+  }
 }

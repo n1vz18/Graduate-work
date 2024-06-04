@@ -6,7 +6,7 @@ import a_sandwichAudio from '../../assets/a_sandwichAudio.mp3'
 
 export default function ListTranslateCloth(){
     return (
-      <div className="zadanie">
+      <div className="zadanie_translate_eat">
               <ul>
                 <li  className="eat-block">
                   <div className="eat-ticket">
