@@ -81,7 +81,6 @@ export default function BodyColor(){
               <div className="SeasonsItem"><img src="https://www.w-dog.ru/wallpapers/10/15/544320050508419/priroda-derevya-sad-park-fonar-dom-zima-sneg-nebo-pejzazh-zimnie-belyj.jpg" alt="Winter" /></div>
             </div>
             <div className="pLable"><p>1. Речевая разминка: Listen to me, and repeat the poem - послушай меня и повтори стихотворение</p></div>
-            <div className="audioLable"></div>
             <div className="zadanie zadinie_lable"><div><p>Spring is green</p><p>Summer is bright</p><p>Autumn is yellow</p><p>Winter is white.</p></div> <AudioComponent audioFile={audioLable1}/></div>
           </div>
           <div className="lable">
