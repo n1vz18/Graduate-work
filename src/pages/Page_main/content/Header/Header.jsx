@@ -41,7 +41,7 @@ export default function Header(){
             </div>
             <div className="txtLogo">
               <motion.p custom={2} variants={textAnimation} className="header_logo_txt">МБУ ДО ЦЕНТР ДЕТСКОГО ТВОРЧЕСТВА КАНАВИНСКОГО РАЙОНА</motion.p>
-              <motion.p custom={3} variants={textAnimation} className="Hello_English">Creative association «Communication without borders»</motion.p>
+              <motion.p custom={3} variants={textAnimation} className="Hello_English">Creative association «Hello, English!»</motion.p>
             </div>
           </div>
           <div className="blockRight">
