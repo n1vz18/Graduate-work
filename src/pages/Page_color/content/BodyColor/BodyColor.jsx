@@ -198,7 +198,7 @@ export default function BodyColor(){
           </div>
           <div className="lable">
             <div className="pLable"><p>5.	Практическая часть</p></div>
-            <div className="zadanie"><p>Let’s read the text. Fill in the gaps</p> <p>Ребята, прочитайте небольшой текст. Вам необходимо вставить слова в пропуски. Чтобы определить цвета , мы можем смешать краски! ( orange,grey,blue, pink,yellow,purple). Решите задание вместе с преподователем!</p> <ColorFillInBlanksComponent /> </div>
+            <div className="zadanie"><p>Let’s read the text. Fill in the gaps</p> <p>Ребята, прочитайте небольшой текст. Вам необходимо вставить слова в пропуски. Чтобы определить цвета , мы можем смешать краски! (orange, brown, blue, pink, white). Решите задание вместе с преподователем!</p> <ColorFillInBlanksComponent /> </div>
             
           </div>
         </div>
