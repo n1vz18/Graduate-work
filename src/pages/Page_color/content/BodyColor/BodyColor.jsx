@@ -59,7 +59,7 @@ const QuizBlock = [
   { english: "Roses are ", russian: "розовый", options: ["Pink", "Red", "Black"], correctAnswer: "Pink", answeredCorrectly: null },
   { english: "The hat is ", russian: "черный", options: ["Green", "Yellov", "Black"], correctAnswer: "Black", answeredCorrectly: null },
   { english: "The sky is ", russian: "синий", options: ["Blue", "White", "Gray"], correctAnswer: "Blue", answeredCorrectly: null },
-  { english: "A book is ", russian: "розовый", options: ["Brown", "Green", "Red"], correctAnswer: "Brown", answeredCorrectly: null },
+  { english: "A book is ", russian: "коричневый", options: ["Brown", "Green", "Red"], correctAnswer: "Brown", answeredCorrectly: null },
 ];
 
 
