@@ -60,7 +60,7 @@ export default function ListTranslateCloth(){
                 </li>
                 <li className="eat-block">
                   <div className="eat-ticket">
-                    <div className='image-eat'><img src="https://lika54.ru/upload/iblock/a2e/a2e204eaab38047804c2988ecb3c4a2b.jpg" alt="Юбка" /></div>
+                    <div className='image-eat'><img src="https://sotni.ru/wp-content/uploads/2023/08/krasivye-iubki-2.webp" alt="Юбка" /></div>
                     <div className="txttranslate">
                       <div className="audioTxt"><AudioTxtComponent audioFile={SkirtAudio}/></div>
                       <div className="text_eatdiv">Skirt - юбка</div>
