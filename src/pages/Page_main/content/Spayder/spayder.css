@@ -129,6 +129,25 @@
 
 }
 
+@media (max-width: 1234px) {
+    .promo__title{
+        margin-bottom: 20px;
+    }
+
+    .promo__text{
+        margin-bottom: 20px;
+    }
+    .promo__desc{
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        font-size: 23px;
+        letter-spacing: 0.06em;
+    }
+
+}
+
 
 @media (max-width: 1024px) {
     .promo__animation{
